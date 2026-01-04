@@ -807,7 +807,7 @@ const CreativeHero = ({ data, theme }: IHeroProps) => {
 									delay: 0.8 + index * 0.2,
 									ease: 'easeOut',
 								}}
-								className={`mr-4 inline-block bg-gradient-to-r ${theme.gradient} bg-clip-text text-transparent`}
+								className={`mr-4 inline-block bg-gradient-to-r ${theme.gradient} bg-clip-text `}
 							>
 								{word}
 							</motion.span>
